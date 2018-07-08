@@ -1,6 +1,12 @@
 # data_catcher
 
-Create sqlite db file and receives data from my esp8266 wifi weather station.
+
+What it does:
+
+Creates sqlite db file and receives data from my esp8266 wifi weather station.
+
+This is a simple Python Flask app and uses SqlAlchemy for database access.
+
 
 To post to the API from the weather station use Arduino code like this example:
 
