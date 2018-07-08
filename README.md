@@ -33,5 +33,11 @@ Serial.print("connecting to ");
 
   delay(300000);
 
+I've included my APRX.conf and grab_weather.py script that it calls.  This is how I am posting my weather data to the APRS HAM radio packet network.
 
+See:  
+
+https://en.wikipedia.org/wiki/Automatic_Packet_Reporting_System
+
+http://thelifeofkenneth.com/aprx/
 
