@@ -3,9 +3,18 @@
 
 What it does:
 
-Creates sqlite db file and receives data from my esp8266 wifi weather station.
+crud.py creates sqlite db file and receives data from my esp8266 wifi weather station.
 
 This is a simple Python Flask app and uses SqlAlchemy for database access.
+
+To run:  python3 crud.py
+
+To Test:
+
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"tmp":"65","hum":"23","lux":"300","prs":"3423.23"}' \
+  http://192.168.1.137:5000/record
 
 
 To post to the API from the weather station use Arduino code like this example:
